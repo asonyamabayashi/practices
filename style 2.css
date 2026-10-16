@@ -1,0 +1,24 @@
+table {
+    text-align: center;
+    background: linear-gradient(to right, red, blue);
+    color: aqua;
+    line-height: 1.8;
+    margin: 0px 400px;
+}
+
+h1 {
+    font-size: 32px;
+    color: blueviolet;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: rgb(8, 201, 153);
+    font-weight: 500;
+}
+tbody tr td {
+    font-size: 14px;
+}
+body {
+    background-color: rgb(14, 231, 231);
+}

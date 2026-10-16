@@ -1,0 +1,137 @@
+/*リセット*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Hiragino Sans", "Meiryo", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #334155;
+    background-color: #f8fefc;
+}
+header {
+    background: linear-gradient(135deg,#1e40af,#7c3aed);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    margin: 20px 0;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+}
+h2 {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 8px;
+    color: #1e40af;
+    font-size: 24px;
+    margin-top: 32px;
+}
+    ul {
+        padding-left: 24px;
+    }
+    li {
+        margin-bottom: 8px;
+    }
+.box-solid {
+    border: 2px solid #2563eb;
+    padding: 15px;
+    margin: 10px 0;
+}
+.box-dashed {
+    border: 2px dashed #059669;
+    padding: 15px;
+    margin: 10px 0;
+}
+.box-dotted {
+    border: 2px dotted #d97706;
+    padding: 15px;
+    margin-top: 10px 0;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+.card {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    padding: 24px;
+    margin: 20px,0;
+    transition: box-shadow 0.3s,transform 0.3s;
+}
+.card h2 {
+    color: #1e40af;
+    border-bottom: 2px solid #dbeafe;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.highlight {
+    background-color: #fef3c7;
+    padding: 12px;
+    border-left: 4px solid #f59e0b;
+}
+nav li {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 8px;
+    background-color: #1e40af;
+    color: white;
+    border-radius: 4px;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+.hidden {
+    font-display: none;
+}
+a:hover {
+    color:#1e40af;
+}
+a {
+    color: #7c3aed;
+    text-decoration: none;
+    transition: color,0.3;
+}
+a:hover {
+    color: #5121b6;
+    text-decoration: underline;
+}
+nav li:hover {
+    background-color: #1e3a8a;
+}
+.card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
